@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  color: seashell;
+  font-size: 50px;
+  float: left;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  color: seashell;
+  text-decoration: underline;
+  margin-left: auto;
+  font-size: 22px;
+  font-family: Helvetica;
+
+}
+.logo {
+  display: inline-flex;
+  float: left;
+  flex-grow: 1;
+  padding-left: 10px;
+  font-family: sans-serif;
+  color: seashell;
+
+}
+.Background {
+  position: relative;
+  height: 700px;
+}
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  background-color: black;
+  font-family: Helvetica;
+}
+.teas {
+  display: flex;
+  color: seashell;
+  width: 1000px;
+  background-color: black;
+}
+.tea-pics {
+  max-height: 200px;
+  max-width: 300px;
+}
+.place {
+  height: 500px;
+}
+.locations {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  color: seashell;
+}
